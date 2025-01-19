@@ -42,18 +42,19 @@ Through this project, you'll gain experience with:
 - Structuring React components.
 
 ---
-
-## 🖼️ Screenshots
-
 ### Game Interface
-![Tenzies Game Interface](https://via.placeholder.com/800x400?text=Add+a+Screenshot)
+
+![Tenzies Game Interface](src/assets/tenzieInterface.PNG)
 
 ---
+## 🖼️ Screenshots
+![Tenzies Holding Die](src/assets/tenzieHold.PNG)
+![Tenzies Win Screen](src/assets/tenzieWin.PNG)
 
+
+---
 ## 🙌 Acknowledgments
 
 Special thanks to the **Scrimba** team for their comprehensive and interactive React course!
 
 ---
-
-Enjoy playing Tenzies and happy coding! 🎉
