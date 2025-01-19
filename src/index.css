@@ -1,4 +1,5 @@
 * {
+  font-family: 'Karla', sans-serif;
   box-sizing: border-box;
 }
 
@@ -30,14 +31,16 @@ main {
   border-radius: 10px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 60px;
 }
 
 .dices {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
-  gap: 20px;
+  gap: 40px;
 }
 
 .die {
@@ -47,7 +50,7 @@ main {
   aspect-ratio: 1 / 1;
   box-shadow: 0px 2px 2px 0px #00000026;
   border-style: none;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: #FFFFFF;
 
   display: flex;
@@ -55,9 +58,26 @@ main {
   justify-content: center;
 
   font-family: 'Karla', sans-serif;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   font-weight: 700;
 
   cursor: pointer;
+}
+
+.dice-roll {
+  width: 190px;
+  height: 70px;
+
+  box-shadow: 0px 2px 2px 0px #00000026;
+  background-color: #5035FF;
+  border-radius: 8px;
+  border-style: none;
+
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2rem;
+
+  cursor: pointer;
+
 }
 
