@@ -1,81 +1,96 @@
 * {
-  font-family: 'Karla', sans-serif;
-  box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
 }
 
 html, body {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  margin: 0;
-  background-color: #0B2434;
+    margin: 0;
+    background-color: #0B2434;
 }
 
 div#root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
 }
 
 main {
-  background-color: #F5F5F5;
-  height: 100%;
-  min-width: 320px;
-  max-width: 640px;
-  min-height: 320px;
-  max-height: 640px;
-  aspect-ratio: 1 / 1;
-  border-radius: 10px;
+    background-color: #F5F5F5;
+    min-width: 510px;
+    max-width: 640px;
+    min-height: 510px;
+    max-height: 640px;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    gap: 20px;
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+}
+
+.instructions {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
 }
 
 .dices {
-  display: grid;
-  grid-template: auto auto / repeat(5, 1fr);
-  gap: 40px;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 40px;
 }
 
 .die {
-  min-width: 70px;
-  min-width: 70px;
+    min-width: 70px;
+    min-width: 70px;
 
-  aspect-ratio: 1 / 1;
-  box-shadow: 0px 2px 2px 0px #00000026;
-  border-style: none;
-  border-radius: 8px;
-  background-color: #FFFFFF;
+    aspect-ratio: 1 / 1;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  font-family: 'Karla', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
+    font-family: 'Karla', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .dice-roll {
-  width: 190px;
-  height: 70px;
+    text-align: center;
+    padding: 6px 40px;
+    width: auto;
+    height: 70px;
 
-  box-shadow: 0px 2px 2px 0px #00000026;
-  background-color: #5035FF;
-  border-radius: 8px;
-  border-style: none;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    background-color: #5035FF;
+    border-radius: 8px;
+    border-style: none;
 
-  color: #FFFFFF;
-  font-weight: 700;
-  font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2rem;
+    white-space: nowrap;
 
-  cursor: pointer;
+    cursor: pointer;
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Die({ value, isHeld, holdDie, id }) {
+function Die({ value, isHeld, holdDie}) {
 
     const styles = {
         backgroundColor: isHeld ? "#59E391" : undefined
     }
 
     return (
-        <button onClick={() => holdDie(id)} style={styles} className="die">{value}</button>
+        <button onClick={holdDie} style={styles} className="die">{value}</button>
     )
 }
 
