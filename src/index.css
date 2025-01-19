@@ -27,7 +27,37 @@ main {
   min-height: 320px;
   max-height: 640px;
   aspect-ratio: 1 / 1;
-
   border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dices {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+
+.die {
+  min-width: 70px;
+  min-width: 70px;
+
+  aspect-ratio: 1 / 1;
+  box-shadow: 0px 2px 2px 0px #00000026;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Karla', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  cursor: pointer;
 }
 
